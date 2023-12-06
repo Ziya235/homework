@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 480px)  {
+    
+#destination_first_yazi p{
+    text-align: center;
+    font-size: 16px;
+}
+#destination_first_yazi h1{
+    font-size: 24px;
+}
+
+.countries  {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 100px;
+}
+.countries_for_repsonsive{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+    
+}
